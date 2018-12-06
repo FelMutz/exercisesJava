@@ -1,7 +1,7 @@
-package officialRegistration.application;
+package employeeRegistration.application;
 
 
-import officialRegistration.obj.Employee;
+import employeeRegistration.obj.Employee;
 
 
 import java.util.ArrayList;

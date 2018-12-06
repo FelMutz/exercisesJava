@@ -1,11 +1,10 @@
 package application;
 
-import officialRegistration.application.EmployeeRegistration;
+import currency.application.Currency;
+import employeeRegistration.application.EmployeeRegistration;
 import matriz.application.Matriz;
-import officialRegistration.obj.Employee;
 
 import java.util.Scanner;
-import java.util.stream.IntStream;
 
 public class Applications {
 
@@ -16,6 +15,7 @@ public class Applications {
         System.out.println("Choose the application you want");
         System.out.println("1 - Employee Registration");
         System.out.println("2 - Matriz");
+        System.out.println("3 - Matriz");
 
         int choice = scan.nextInt();
 
@@ -25,6 +25,9 @@ public class Applications {
                 break;
             case 2:
                 Matriz.matriz();
+                break;
+            case 3:
+                Currency.currency();
                 break;
             default:
                 System.out.println("Invalid choise!!");

@@ -1,4 +1,4 @@
-package officialRegistration.obj;
+package employeeRegistration.obj;
 
 public class Employee {
 
