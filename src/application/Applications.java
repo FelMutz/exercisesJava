@@ -15,7 +15,7 @@ public class Applications {
         System.out.println("Choose the application you want");
         System.out.println("1 - Employee Registration");
         System.out.println("2 - Matriz");
-        System.out.println("3 - Matriz");
+        System.out.println("3 - Currency");
 
         int choice = scan.nextInt();
 

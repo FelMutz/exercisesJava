@@ -1,7 +1,10 @@
 package matriz.application;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 import java.util.Scanner;
+import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 public class Matriz {
@@ -13,7 +16,20 @@ public class Matriz {
         int l = scan.nextInt();
         int c = scan.nextInt();
         System.out.println();
+
+
         Integer[][] matriz = new Integer[l][c];
+
+        List<List<Integer>> listArray = new ArrayList<>();
+
+        IntStream.range(0, 10).forEach(value ->
+            listArray.add(IntStream.range(0, 10).mapToObj(integre -> scan.nextInt()).collect(Collectors.toList()))
+        );
+
+        listArray.forEach(integers ->
+                integers.forEach(integer -> System.out.println(integer))
+        );
+
         System.out.println("Insert Numbers:");
         System.out.println();
         for (int i = 0; i<matriz.length; i++){
@@ -49,6 +65,8 @@ public class Matriz {
 
         IntStream.range(0, matriz.length)
                 .forEach(i -> System.out.println(matriz[i][i]));
+
+
 
         System.out.println();
         System.out.println(Arrays.stream(matriz)
