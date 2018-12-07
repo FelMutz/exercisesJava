@@ -3,6 +3,7 @@ package application;
 import currency.application.Currency;
 import employeeRegistration.application.EmployeeRegistration;
 import matriz.application.Matriz;
+import orderOfService.application.OrderOfService;
 
 import java.util.Scanner;
 
@@ -16,6 +17,7 @@ public class Applications {
         System.out.println("1 - Employee Registration");
         System.out.println("2 - Matriz");
         System.out.println("3 - Currency");
+        System.out.println("4 - Order Of Service");
 
         int choice = scan.nextInt();
 
@@ -29,17 +31,13 @@ public class Applications {
             case 3:
                 Currency.currency();
                 break;
+            case 4:
+                OrderOfService.orderOfService();
+                break;
             default:
                 System.out.println("Invalid choise!!");
         }
         scan.close();
     }
 
-    public static void printElement(String valor) {
-        System.out.println(valor);
-    }
-
-    public static void printElement(Double valor) {
-        System.out.println(valor);
-    }
 }
