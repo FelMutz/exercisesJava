@@ -12,23 +12,18 @@ public class Matriz {
     public static void matriz(){
         Scanner scan = new Scanner(System.in);
         System.out.println();
-        System.out.print("What is the size od the matriz? Ex. '2 3'");
+
         int l = scan.nextInt();
         int c = scan.nextInt();
+
+
+        System.out.print("What is the size od the matriz? Ex. '2 3'");
+
         System.out.println();
 
 
         Integer[][] matriz = new Integer[l][c];
 
-        List<List<Integer>> listArray = new ArrayList<>();
-
-        IntStream.range(0, 10).forEach(value ->
-            listArray.add(IntStream.range(0, 10).mapToObj(integre -> scan.nextInt()).collect(Collectors.toList()))
-        );
-
-        listArray.forEach(integers ->
-                integers.forEach(integer -> System.out.println(integer))
-        );
 
         System.out.println("Insert Numbers:");
         System.out.println();
@@ -41,7 +36,6 @@ public class Matriz {
 
         System.out.print("Find a specific number and see the numbers that are in its area: ");
         int find = scan.nextInt();
-
 
         for (int i = 0; i<matriz.length; i++){
             for (int j = 0; j<matriz[i].length; j++){
@@ -66,18 +60,7 @@ public class Matriz {
         IntStream.range(0, matriz.length)
                 .forEach(i -> System.out.println(matriz[i][i]));
 
-
-
-        System.out.println();
-        System.out.println(Arrays.stream(matriz)
-                .mapToDouble(Matriz::applyAsDouble)
-        );
         scan.close();
     }
 
-    private static double applyAsDouble(Integer[] row) {
-        return IntStream.range(0, row.length)
-                .mapToDouble(col -> row[col].intValue())
-                .sum();
-    }
 }
