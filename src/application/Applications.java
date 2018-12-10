@@ -4,6 +4,7 @@ import currency.application.Currency;
 import employeeRegistration.application.EmployeeRegistration;
 import matriz.application.Matriz;
 import orderOfService.application.OrderOfService;
+import withdrawWithTryCatch.application.Bank;
 
 import java.util.Scanner;
 
@@ -18,7 +19,8 @@ public class Applications {
         System.out.println("2 - Matriz");
         System.out.println("3 - Currency");
         System.out.println("4 - Order Of Service");
-
+        System.out.println("5 - Withdraw With Try Catch");
+        System.out.print("Choose: ");
         int choice = scan.nextInt();
 
         switch (choice){
@@ -33,6 +35,9 @@ public class Applications {
                 break;
             case 4:
                 OrderOfService.orderOfService();
+                break;
+            case 5:
+                Bank.bank();
                 break;
             default:
                 System.out.println("Invalid choise!!");
