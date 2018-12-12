@@ -7,8 +7,8 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 public class MatrizWithLambda {
-    public static void matrizWithLambda() {
 
+    public static void matrizWithLambda() {
         Scanner scan = new Scanner(System.in);
         List<List<Integer>> listArray = new ArrayList<>();
 

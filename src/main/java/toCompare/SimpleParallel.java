@@ -1,0 +1,87 @@
+package toCompare;
+
+import java.util.Scanner;
+import java.util.stream.LongStream;
+import java.util.stream.Stream;
+
+public class SimpleParallel {
+
+    public static void simpleParallel(){
+
+        //long num = 10000000L;
+        long num = 10000000000L;
+        sumWithFor(num);
+        //sumWithStreamSimple(num);
+        //sumWithStreamParallel(num);
+        sumWithLongStreamSimple(num);
+        sumWithLongStreamParallel(num);
+
+    }
+
+    public static void sumWithFor(long num){
+        long result = 0;
+
+        long init = System.currentTimeMillis();
+        for(long i = 1l; i<num; i++){
+            result += i;
+        }
+        long end = System.currentTimeMillis();
+
+        System.out.println("For:");
+        System.out.println("Result: "+result);
+        System.out.println("Time: "+ (end-init) +"ms");
+        System.out.println();
+    }
+
+    public static void  sumWithStreamSimple(long num){
+        long result = 0;
+
+        long init = System.currentTimeMillis();
+        result = Stream.iterate(1l, i->i+1).limit(num).reduce(0L, Long::sum);
+        long end = System.currentTimeMillis();
+
+        System.out.println("Stream Simple:");
+        System.out.println("Result: "+result);
+        System.out.println("Time: "+ (end-init) +"ms");
+        System.out.println();
+    }
+
+    public static void  sumWithStreamParallel(long num){
+        long result = 0;
+
+        long init = System.currentTimeMillis();
+        result = Stream.iterate(1l, i->i+1).parallel().limit(num).reduce(0L, Long::sum);
+        long end = System.currentTimeMillis();
+
+        System.out.println("Stream Parallel:");
+        System.out.println("Result: "+result);
+        System.out.println("Time: "+ (end-init) +"ms");
+        System.out.println();
+    }
+
+    public static void  sumWithLongStreamSimple(long num){
+        long result = 0;
+
+        long init = System.currentTimeMillis();
+        result = LongStream.range(1L, num).reduce(0L, Long::sum);
+        long end = System.currentTimeMillis();
+
+        System.out.println("LongStream Simple:");
+        System.out.println("Result: "+result);
+        System.out.println("Time: "+ (end-init) +"ms");
+        System.out.println();
+    }
+
+    public static void  sumWithLongStreamParallel(long num){
+        long result = 0;
+
+        long init = System.currentTimeMillis();
+        result = LongStream.range(1L, num).parallel().reduce(0L, Long::sum);
+        long end = System.currentTimeMillis();
+
+        System.out.println("LongStream Parallel:");
+        System.out.println("Result: "+result);
+        System.out.println("Time: "+ (end-init) +"ms");
+        System.out.println();
+    }
+}

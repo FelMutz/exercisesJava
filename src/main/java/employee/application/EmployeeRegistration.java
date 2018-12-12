@@ -1,7 +1,7 @@
-package employeeRegistration.application;
+package employee.application;
 
 
-import employeeRegistration.obj.Employee;
+import employee.entities.Employee;
 
 
 import java.util.ArrayList;
@@ -33,7 +33,11 @@ public class EmployeeRegistration {
             System.out.print("Salary: ");
             double salary = scan.nextDouble();
 
-            listEmployee.add(new Employee(id,name,salary));
+            listEmployee.add(Employee.builder()
+                    .id(id)
+                    .name(name)
+                    .salary(salary).build());
+
         }
         System.out.println("--------------------------");
         for (Employee t:listEmployee) {

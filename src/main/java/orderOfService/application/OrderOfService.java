@@ -16,9 +16,8 @@ public class OrderOfService {
     private static Scanner scan = new Scanner(System.in);
     private static Order order;
     public static DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+
     public static void orderOfService() {
-
-
         System.out.println("Enter cliente data:");
 
         System.out.print("Name: ");
@@ -42,7 +41,7 @@ public class OrderOfService {
 
         System.out.println("How many items to this order? ");
         int itens = scan.nextInt();
-        IntStream.range(0, itens).forEach(x -> order.addItem(addItem()));
+        IntStream.range(0, itens).forEach(x -> order.addItem(lerItemDoUsuario()));
 
         System.out.println("ORDER SUMMARY:");
 
@@ -52,9 +51,7 @@ public class OrderOfService {
         scan.close();
     }
 
-
-
-    public static OrderItem addItem() {
+    public static OrderItem lerItemDoUsuario() {
         Product product = new Product();
         System.out.printf("Enter #%d item data:", order.getOrderItem().size() + 1);
         System.out.println();

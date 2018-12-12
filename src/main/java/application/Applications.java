@@ -1,9 +1,13 @@
 package application;
 
 import currency.application.Currency;
-import employeeRegistration.application.EmployeeRegistration;
+import employee.application.EmployeeLambdaFilter;
+import employee.application.EmployeeRegistration;
 import matriz.application.Matriz;
 import orderOfService.application.OrderOfService;
+import orderOfService.entities.OrderItem;
+import orderOfService.entities.Product;
+import toCompare.SimpleParallel;
 import withdrawWithTryCatch.application.Bank;
 
 import java.util.Scanner;
@@ -11,7 +15,6 @@ import java.util.Scanner;
 public class Applications {
 
     public static void main(String[] args){
-
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Choose the application you want");
@@ -20,6 +23,8 @@ public class Applications {
         System.out.println("3 - Currency");
         System.out.println("4 - Order Of Service");
         System.out.println("5 - Withdraw With Try Catch");
+        System.out.println("6 - Employee with read file and lambda");
+        System.out.println("7 - Compare For, Stream and LongStream (Simple and Parallel)");
         System.out.print("Choose: ");
         int choice = scan.nextInt();
 
@@ -38,6 +43,12 @@ public class Applications {
                 break;
             case 5:
                 Bank.bank();
+                break;
+            case 6:
+                EmployeeLambdaFilter.employeeLambdaFilter();
+                break;
+            case 7:
+                SimpleParallel.simpleParallel();
                 break;
             default:
                 System.out.println("Invalid choise!!");

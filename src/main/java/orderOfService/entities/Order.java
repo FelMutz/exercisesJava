@@ -39,11 +39,7 @@ public class Order {
 
     public Double total(){
 
-        Double total = 0.0;
-
-        total = orderItem.stream().mapToDouble(x -> x.subTotal()).sum();
-
-        return total;
+        return orderItem.stream().mapToDouble(x -> x.subTotal()).sum();
 
     }
 

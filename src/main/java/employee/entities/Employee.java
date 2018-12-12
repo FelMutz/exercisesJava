@@ -1,24 +1,27 @@
-package employeeRegistration.obj;
+package employee.entities;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
 public class Employee {
 
     private Integer id;
     private String name;
+    private String email;
     private Double salary;
 
-    public Employee(Integer id, String name, Double salary){
-        this.id = id;
-        this.name = name;
-        this.salary = salary;
-    }
+
 
     public void increaseSalary(double percentage){
         salary += salary*percentage/100;
     }
 
-    public Integer getId(){
-        return id;
-    }
 
     public String toString(){
         return id
