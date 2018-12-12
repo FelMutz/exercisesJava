@@ -16,8 +16,6 @@ public class Employee {
     private String email;
     private Double salary;
 
-
-
     public void increaseSalary(double percentage){
         salary += salary*percentage/100;
     }

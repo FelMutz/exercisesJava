@@ -40,10 +40,13 @@ public class EmployeeRegistration {
 
         }
         System.out.println("--------------------------");
-        for (Employee t:listEmployee) {
+
+        /*for (Employee t:listEmployee) {
             System.out.printf(t.toString());
 
-        }
+        }*/
+
+        listEmployee.stream().forEach(x -> System.out.println(x.toString()));
         System.out.println();
         System.out.print("Enter the employee id that will have salary increase : ");
         int id = scan.nextInt();
@@ -59,10 +62,11 @@ public class EmployeeRegistration {
         }
         System.out.println("--------------------------");
 
-        for (Employee t:listEmployee) {
+        /*for (Employee t:listEmployee) {
             System.out.printf(t.toString());
 
-        }
+        }*/
+        listEmployee.stream().forEach(x -> System.out.println(x.toString()));
 
         scan.close();
     }
