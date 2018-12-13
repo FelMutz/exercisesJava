@@ -13,14 +13,10 @@ public class Matriz {
         Scanner scan = new Scanner(System.in);
         System.out.println();
 
-        int l = scan.nextInt();
-        int c = scan.nextInt();
-
-
         System.out.print("What is the size od the matriz? Ex. '2 3'");
 
-        System.out.println();
-
+        int l = scan.nextInt();
+        int c = scan.nextInt();
 
         Integer[][] matriz = new Integer[l][c];
 
