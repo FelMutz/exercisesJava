@@ -43,8 +43,6 @@ public class EmployeeLambdaFilter {
             list.stream().filter(x -> x.getSalary() >salary)
                     .map(x -> x.getEmail())
                     .sorted()
-                    .collect(Collectors.toList())
-                    .stream()
                     .forEach(x -> System.out.println(x));
 
             System.out.printf("Sum of salary of people whose name starts with 'M': %.2f",

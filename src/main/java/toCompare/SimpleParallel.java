@@ -1,18 +1,18 @@
 package toCompare;
 
 import java.util.List;
-import java.util.Scanner;
 import java.util.stream.Collectors;
 import java.util.stream.LongStream;
 import java.util.stream.Stream;
 
 public class SimpleParallel {
-
     public static void simpleParallel(){
 
-        long num = 1000000L;
+        long num = 1000000L; //maximo que a Stream parallel consegue rodar nesta maquina
         //long num = 10000000000L;
-        sumWithFor(num);
+
+
+        sumWithFor(num); //chama uma função estática passando o valor num por parametro
         sumWithStreamSimple(num);
         sumWithStreamParallel(num);
         sumWithLongStreamSimple(num);
@@ -36,7 +36,7 @@ public class SimpleParallel {
     }
 
     public static void  sumWithStreamSimple(long num){
-        long result = 0;
+        long result =0;
 
         long init = System.currentTimeMillis();
         result = Stream.iterate(1l, i->i+1).limit(num).reduce(0L, Long::sum);
