@@ -1,13 +1,10 @@
 package application;
 
 import currency.application.Currency;
-import employee.application.EmployeeLambdaFilter;
-import employee.application.EmployeeRegistration;
+import employee.application.*;
 import matriz.application.Matriz;
 import orderOfService.application.OrderOfService;
-import orderOfService.entities.OrderItem;
-import orderOfService.entities.Product;
-import thread.TesteTwoThread;
+import thread.*;
 import toCompare.SimpleParallel;
 import withdrawWithTryCatch.application.Bank;
 
@@ -26,7 +23,8 @@ public class Applications {
         System.out.println("5 - Withdraw With Try Catch");
         System.out.println("6 - Employee with read file and lambda");
         System.out.println("7 - Compare For, Stream and LongStream (Simple and Parallel)");
-        System.out.println("8 - Execute two Threads)");
+        System.out.println("8 - Execute two Threads");
+        System.out.println("9 - Execute Threads That Compare For, Stream and LongStream (Simple and Parallel)");
         System.out.print("Choose: ");
         int choice = scan.nextInt();
 
@@ -53,7 +51,10 @@ public class Applications {
                 SimpleParallel.simpleParallel();
                 break;
             case 8:
-                TesteTwoThread.testeTwoThread();
+                TestTwoThread.testTwoThread();
+                break;
+            case 9:
+                TestThreadStreams.testThreadStreams();
                 break;
             default:
                 System.out.println("Invalid choise!!");

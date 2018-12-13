@@ -1,9 +1,9 @@
 package thread;
 
-public class TesteTwoThread {
+public class TestTwoThread {
 
     private static int i = 0;
-    public static void testeTwoThread (){
+    public static void testTwoThread (){
         new Thread(t1).start();
         new Thread(t2).start();
     }
