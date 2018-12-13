@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="886aa5a3-c499-4d43-8c11-848f0da0dd5f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/matriz/format/Format.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/application/Applications.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/Applications.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/matriz/application/Matriz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/matriz/application/Matriz.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/matriz/application/MatrizWithLambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/matriz/application/MatrizWithLambda.java" afterDir="false" />
     </list>
@@ -65,17 +64,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/matriz/application/Matriz.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="554">
-              <caret line="56" column="64" lean-forward="true" selection-start-line="52" selection-start-column="7" selection-end-line="56" selection-end-column="64" />
+            <state relative-caret-position="590">
+              <caret line="75" column="1" lean-forward="true" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/matriz/format/Format.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="21" selection-start-column="21" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/matriz/application/MatrizWithLambda.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/matriz/application/MatrizWithLambda.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/orderOfService/application/OrderOfService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="58" selection-start-line="58" selection-end-line="58" />
+            <state relative-caret-position="725">
+              <caret line="57" selection-start-line="57" selection-end-line="57" />
             </state>
           </provider>
         </entry>
@@ -162,6 +179,8 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/application/Applications.java" />
+        <option value="$PROJECT_DIR$/src/main/java/matriz/application/Format.java" />
+        <option value="$PROJECT_DIR$/src/main/java/matriz/format/Format.java" />
         <option value="$PROJECT_DIR$/src/main/java/matriz/application/Matriz.java" />
         <option value="$PROJECT_DIR$/src/main/java/matriz/application/MatrizWithLambda.java" />
       </list>
@@ -252,7 +271,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="matriz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Exercicies" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Exercicies" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="matriz" type="462c0819:PsiDirectoryNode" />
+              <item name="format" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Exercicies" type="b2602c69:ProjectViewProjectNode" />
@@ -331,9 +359,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544725839649" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544727285155" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/matriz" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -486,7 +515,7 @@
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7123894" visible="true" weight="0.27006087" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7123894" visible="true" weight="0.27006087" />
       <window_info id="Structure" order="1" sideWeight="0.28761062" side_tool="true" visible="true" weight="0.27006087" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -495,7 +524,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4991699" weight="0.32937366" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.65190923" visible="true" weight="0.26781857" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.65190923" visible="true" weight="0.26781857" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4997233" weight="0.39956802" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -650,13 +679,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/orderOfService/application/OrderOfService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/employee/entities/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -734,17 +756,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/matriz/format/Format.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/matriz/application/Matriz.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="56" column="64" lean-forward="true" selection-start-line="52" selection-start-column="7" selection-end-line="56" selection-end-column="64" />
+        <state relative-caret-position="590">
+          <caret line="75" column="1" lean-forward="true" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/matriz/application/MatrizWithLambda.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        <state relative-caret-position="230">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/orderOfService/application/OrderOfService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
         </state>
       </provider>
     </entry>

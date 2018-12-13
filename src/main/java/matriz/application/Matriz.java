@@ -1,10 +1,8 @@
 package matriz.application;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import matriz.formatting.Formatting;
+
 import java.util.Scanner;
-import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 public class Matriz {
@@ -19,7 +17,7 @@ public class Matriz {
         int c = scan.nextInt();
 
         Integer[][] matriz = new Integer[l][c];
-
+        Formatting.separationLines(); //Apenas adiciona linhas de semparação
 
         System.out.println("Insert Numbers:");
         System.out.println();
@@ -29,6 +27,17 @@ public class Matriz {
                 matriz[i][j] = scan.nextInt();
             }
         }
+
+        Formatting.separationLines(); //Apenas adiciona linhas de semparação
+
+        for (int i = 0; i<matriz.length; i++) {
+            for (int j = 0; j < matriz[i].length; j++) {
+                System.out.print(matriz[i][j]+" ");
+            }
+            System.out.println();
+        }
+
+        Formatting.separationLines(); //Apenas adiciona linhas de semparação
 
         System.out.print("Find a specific number and see the numbers that are in its area: ");
         int find = scan.nextInt();
@@ -50,7 +59,8 @@ public class Matriz {
             }
         }
 
-        System.out.println();
+        Formatting.separationLines(); //Apenas adiciona linhas de semparação
+
         System.out.println("Main diagonal:");
 
         IntStream.range(0, matriz.length)

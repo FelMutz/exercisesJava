@@ -1,5 +1,7 @@
 package matriz.application;
 
+import matriz.formatting.Formatting;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -17,6 +19,9 @@ public class MatrizWithLambda {
 
         int l = scan.nextInt();
         int c = scan.nextInt();
+
+        Formatting.separationLines(); //Apenas adiciona linhas de semparação
+
         System.out.println("Insert Numbers:");
 
         IntStream.range(0, l).forEach(value ->{
@@ -24,12 +29,14 @@ public class MatrizWithLambda {
                 listArray.add(IntStream.range(0, c).mapToObj(integre -> scan.nextInt()).collect(Collectors.toList()));
             }
         );
-
+        Formatting.separationLines(); //Apenas adiciona linhas de semparação
         listArray.forEach(integers ->{
                     integers.forEach(integer -> System.out.print(integer+" "));
                     System.out.println();
                 }
         );
+
+        Formatting.separationLines(); //Apenas adiciona linhas de semparação
 
         System.out.print("Find a specific number and see the numbers that are in its area: ");
         int find = scan.nextInt();
@@ -39,7 +46,6 @@ public class MatrizWithLambda {
 
         listArray.stream().forEach(value -> {
                     if(value.indexOf(find)>=0) {
-                            System.out.println("The value was found in: " + line + "," + value.indexOf(find));
                             System.out.println();
                             System.out.println("Position " +line+ "," +value.indexOf(find)+":");
                             if (value.indexOf(find) > 0)
@@ -55,7 +61,8 @@ public class MatrizWithLambda {
                 }
         );
 
-        System.out.println();
+        Formatting.separationLines(); //Apenas adiciona linhas de semparação
+
         System.out.println("Main diagonal:");
 
         line.set(0);
