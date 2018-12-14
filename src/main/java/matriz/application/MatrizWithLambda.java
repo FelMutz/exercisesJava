@@ -42,7 +42,6 @@ public class MatrizWithLambda {
         int find = scan.nextInt();
 
         AtomicInteger line = new AtomicInteger();
-        AtomicInteger column = new AtomicInteger();
 
         listArray.stream().forEach(value -> {
                     if(value.indexOf(find)>=0) {

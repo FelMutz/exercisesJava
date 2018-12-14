@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="886aa5a3-c499-4d43-8c11-848f0da0dd5f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/matriz/format/Format.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/matriz/application/Matriz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/matriz/application/Matriz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/employee/entities/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/employee/entities/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/matriz/application/MatrizWithLambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/matriz/application/MatrizWithLambda.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -41,21 +40,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/application/Applications.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="40" column="52" selection-start-line="40" selection-start-column="52" selection-end-line="40" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="545">
+            <state relative-caret-position="2754">
               <caret line="153" selection-start-line="153" selection-end-line="153" />
             </state>
           </provider>
@@ -64,17 +51,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/matriz/application/Matriz.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="590">
-              <caret line="75" column="1" lean-forward="true" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
+            <state>
+              <caret column="27" selection-start-column="27" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/matriz/format/Format.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/matriz/formatting/Formatting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="21" selection-start-column="21" selection-end-column="21" />
+            <state relative-caret-position="54">
+              <caret line="3" column="38" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -82,16 +69,28 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/matriz/application/MatrizWithLambda.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="197">
+              <caret line="31" column="76" selection-start-line="31" selection-start-column="76" selection-end-line="31" selection-end-column="76" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/employee/entities/Employee.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/orderOfService/application/OrderOfService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="725">
+            <state relative-caret-position="864">
               <caret line="57" selection-start-line="57" selection-end-line="57" />
             </state>
           </provider>
@@ -118,7 +117,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/thread/TestThreadStreams.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
+            <state relative-caret-position="144">
               <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -130,7 +129,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/toCompare/SimpleParallel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="126">
               <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -168,7 +167,6 @@
         <option value="$PROJECT_DIR$/src/main/java/employeeRegistration/application/EmployeeRegistration.java" />
         <option value="$PROJECT_DIR$/src/test/java/employee/entities/EmployeeTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/employee/application/EmployeeRegistration.java" />
-        <option value="$PROJECT_DIR$/src/main/java/employee/entities/Employee.java" />
         <option value="$PROJECT_DIR$/src/main/java/employee/application/EmployeeLambdaFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/toCompare/SimpleParallel.java" />
         <option value="$PROJECT_DIR$/src/main/java/TesteTwoThread.java" />
@@ -181,16 +179,18 @@
         <option value="$PROJECT_DIR$/src/main/java/application/Applications.java" />
         <option value="$PROJECT_DIR$/src/main/java/matriz/application/Format.java" />
         <option value="$PROJECT_DIR$/src/main/java/matriz/format/Format.java" />
+        <option value="$PROJECT_DIR$/src/main/java/matriz/formatting/Formatting.java" />
         <option value="$PROJECT_DIR$/src/main/java/matriz/application/Matriz.java" />
         <option value="$PROJECT_DIR$/src/main/java/matriz/application/MatrizWithLambda.java" />
+        <option value="$PROJECT_DIR$/src/main/java/employee/entities/Employee.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="4">
     <option name="x" value="67" />
-    <option name="y" value="25" />
-    <option name="width" value="927" />
-    <option name="height" value="1055" />
+    <option name="y" value="27" />
+    <option name="width" value="1843" />
+    <option name="height" value="1053" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -198,6 +198,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -229,32 +230,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Exercicies" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Exercicies" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="currency" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Exercicies" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Exercicies" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="employee" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Exercicies" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Exercicies" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="employee" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Exercicies" type="b2602c69:ProjectViewProjectNode" />
@@ -280,93 +256,25 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="matriz" type="462c0819:PsiDirectoryNode" />
-              <item name="format" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Exercicies" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Exercicies" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="orderOfService" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Exercicies" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Exercicies" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="orderOfService" type="462c0819:PsiDirectoryNode" />
               <item name="application" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Exercicies" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Exercicies" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="thread" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Exercicies" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Exercicies" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="toCompare" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Exercicies" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Exercicies" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="withdrawWithTryCatch" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Exercicies" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Exercicies" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="withdrawWithTryCatch" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Exercicies" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Exercicies" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="withdrawWithTryCatch" type="462c0819:PsiDirectoryNode" />
-              <item name="entities" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Exercicies" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Exercicies" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="withdrawWithTryCatch" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544727285155" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544784857093" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/matriz" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -512,11 +420,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <frame x="67" y="27" width="1843" height="1053" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7123894" visible="true" weight="0.27006087" />
-      <window_info id="Structure" order="1" sideWeight="0.28761062" side_tool="true" visible="true" weight="0.27006087" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7123894" visible="true" weight="0.33834168" />
+      <window_info id="Structure" order="1" sideWeight="0.28761062" side_tool="true" weight="0.33841887" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -524,14 +432,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4991699" weight="0.32937366" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.65190923" visible="true" weight="0.26781857" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6518724" weight="0.26781857" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4997233" weight="0.39956802" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32937366" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4991699" weight="0.32937366" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.34809077" side_tool="true" visible="true" weight="0.26781857" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.3481276" side_tool="true" weight="0.26781857" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32937366" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4980631" weight="0.32937366" />
       <window_info anchor="bottom" id="Dependency Viewer" order="12" sideWeight="0.4997233" weight="0.29697624" />
@@ -545,6 +453,37 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7123894" visible="true" weight="0.33841887" />
+      <window_info id="Structure" order="1" sideWeight="0.28761062" side_tool="true" visible="true" weight="0.33841887" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4991699" weight="0.32937366" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.6518724" visible="true" weight="0.26781857" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4997233" weight="0.39956802" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32937366" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4991699" weight="0.32937366" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.3481276" side_tool="true" visible="true" weight="0.26781857" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.32937366" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4980631" weight="0.32937366" />
+      <window_info anchor="bottom" id="Dependency Viewer" order="12" sideWeight="0.4997233" weight="0.29697624" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Gradle" order="5" weight="0.32982844" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout-to-restore>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
@@ -679,16 +618,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/employee/entities/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/currency/methodsStatics/CurrencyConverter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -698,27 +627,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/thread.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/application/MeuprojetoApplication.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/thread/TestTwoThread.java">
+    <entry file="jar://$USER_HOME$/.sdkman/candidates/java/current/lib/src.zip!/java.base/java/util/concurrent/atomic/AtomicInteger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        <state relative-caret-position="217">
+          <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/thread/TestThreadStreams.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/application/Applications.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/toCompare/SimpleParallel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="27" />
+        <state relative-caret-position="558">
+          <caret line="40" column="52" selection-start-line="40" selection-start-column="52" selection-end-line="40" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -727,8 +646,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
+        <state relative-caret-position="2754">
           <caret line="153" selection-start-line="153" selection-end-line="153" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/matriz/application/Matriz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="27" selection-start-column="27" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/matriz/formatting/Formatting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/orderOfService/application/OrderOfService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
         </state>
       </provider>
     </entry>
@@ -739,48 +679,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/application/Applications.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/thread/TestTwoThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="40" column="52" selection-start-line="40" selection-start-column="52" selection-end-line="40" selection-end-column="52" />
+        <state relative-caret-position="126">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/thread/TestThreadStreams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.sdkman/candidates/java/current/lib/src.zip!/java.base/java/util/concurrent/atomic/AtomicInteger.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/toCompare/SimpleParallel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/matriz/format/Format.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/matriz/application/Matriz.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="590">
-          <caret line="75" column="1" lean-forward="true" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
+        <state relative-caret-position="126">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/matriz/application/MatrizWithLambda.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="197">
+          <caret line="31" column="76" selection-start-line="31" selection-start-column="76" selection-end-line="31" selection-end-column="76" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/orderOfService/application/OrderOfService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/employee/entities/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        <state relative-caret-position="216">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
