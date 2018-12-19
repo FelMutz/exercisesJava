@@ -1,10 +1,11 @@
 package matriz.application;
 
 import matriz.formatting.Formatting;
+import org.springframework.stereotype.Service;
 
 import java.util.Scanner;
 import java.util.stream.IntStream;
-
+@Service
 public class Matriz {
 
     public static void matriz(){

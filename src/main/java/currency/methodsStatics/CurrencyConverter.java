@@ -1,6 +1,7 @@
 package currency.methodsStatics;
 
 
+
 public class CurrencyConverter {
 
     private static final double TAX = 0.06;

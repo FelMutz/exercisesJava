@@ -1,6 +1,7 @@
 package matriz.application;
 
 import matriz.formatting.Formatting;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,7 +9,7 @@ import java.util.Scanner;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
-
+@Service
 public class MatrizWithLambda {
 
     public static void matrizWithLambda() {
@@ -43,7 +44,7 @@ public class MatrizWithLambda {
 
         AtomicInteger line = new AtomicInteger();
 
-        listArray.stream().forEach(value -> {
+        listArray.forEach(value -> {
                     if(value.indexOf(find)>=0) {
                             System.out.println();
                             System.out.println("Position " +line+ "," +value.indexOf(find)+":");

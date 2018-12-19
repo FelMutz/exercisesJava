@@ -1,12 +1,13 @@
 package withdrawWithTryCatch.application;
 
+import org.springframework.stereotype.Service;
 import withdrawWithTryCatch.entities.Account;
 import withdrawWithTryCatch.exception.DomainException;
 
 import javax.xml.stream.Location;
 import java.util.Locale;
 import java.util.Scanner;
-
+@Service
 public class Bank {
 
     public static void bank() {

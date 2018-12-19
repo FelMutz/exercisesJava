@@ -1,5 +1,8 @@
 package thread;
 
+import org.springframework.stereotype.Service;
+
+@Service
 public class TestTwoThread {
 
     private static int i = 0;

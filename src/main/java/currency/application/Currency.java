@@ -3,11 +3,12 @@ package currency.application;
 
 
 import currency.methodsStatics.CurrencyConverter;
+import org.springframework.stereotype.Service;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-
+@Service
 public class Currency {
     public static void currency() {
 

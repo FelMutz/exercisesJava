@@ -1,6 +1,7 @@
 package employee.application;
 
 import employee.entities.Employee;
+import org.springframework.stereotype.Service;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -9,8 +10,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 import java.util.Scanner;
-import java.util.stream.Collectors;
 
+@Service
 public class EmployeeLambdaFilter {
 
     public static void employeeLambdaFilter(){

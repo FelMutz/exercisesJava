@@ -5,12 +5,13 @@ import employee.application.*;
 import matriz.application.Matriz;
 import matriz.application.MatrizWithLambda;
 import orderOfService.application.OrderOfService;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 import thread.*;
 import toCompare.SimpleParallel;
 import withdrawWithTryCatch.application.Bank;
 
 import java.util.Scanner;
-
+@SpringBootApplication
 public class Applications {
 
     public static void main(String[] args){

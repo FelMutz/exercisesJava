@@ -5,12 +5,13 @@ import orderOfService.entities.Order;
 import orderOfService.entities.OrderItem;
 import orderOfService.entities.Product;
 import orderOfService.entities.enums.OrderStatus;
+import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Scanner;
 import java.util.stream.IntStream;
-
+@Service
 public class OrderOfService {
 
     private static Scanner scan = new Scanner(System.in);

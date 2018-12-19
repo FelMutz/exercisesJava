@@ -1,10 +1,12 @@
 package toCompare;
 
+import org.springframework.stereotype.Service;
+
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.LongStream;
 import java.util.stream.Stream;
-
+@Service
 public class SimpleParallel {
     public static void simpleParallel(){
 

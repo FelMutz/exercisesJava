@@ -5,6 +5,8 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.lang.reflect.Field;
+
 @Data
 @Builder
 @AllArgsConstructor
@@ -21,6 +23,6 @@ public class OrderItem {
 
     @Override
     public String toString() {
-        return String.format(product.getName() + ", $" + price + " Quantity: " + quantity + ", Subtotal: $" + subTotal());
+        return String.format(product.getName() + ", $" + price + " Quantity: " + this.quantity + ", Subtotal: $" + subTotal());
     }
 }
